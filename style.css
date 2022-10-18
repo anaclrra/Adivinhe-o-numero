@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+    background-color: rgb(120, 90, 201);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: max-content;
+    background-color:rgba(0, 0, 0,0.3);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.35);
+    margin-top: 160px;
+    transition: ease-in 0.5s all;
+}
+
+.container:hover {
+    background-color: rgba(0, 0, 0,0.4);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+}
+
+.container > .title, form, .msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#num, #btn {
+    border-radius: 6px;
+    background-color: white;
+    color: rgb(120, 90, 201);
+    border-style: none;
+    outline-style: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#num{
+    width: 50px;
+    height: 21px;
+}
+
+#btn {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#num:hover, #btn:hover {
+    background-color: rgb(250, 246, 246);
+}
+
+.msg {
+    font-size: 18px;
+}
